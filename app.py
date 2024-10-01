@@ -62,7 +62,7 @@ def index():
 
         return send_file(output_file, as_attachment=True)
 
-    return render_template('form.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
